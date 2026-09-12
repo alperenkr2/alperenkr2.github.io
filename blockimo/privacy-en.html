@@ -1,0 +1,106 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --panel:#3E7B71; --ink:#24534C; --muted:rgba(36,83,76,.70);
+    --lav:#CFC0F0; --rose:#F2BFD3; --sky:#BFD5F5; --mint:#BFEBDC;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:Fredoka,ui-rounded,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    color:var(--ink);
+    background:
+      radial-gradient(900px 600px at 12% -6%, #E6F5F0 0%, rgba(230,245,240,0) 58%),
+      radial-gradient(800px 620px at 96% 10%, #F1EAFA 0%, rgba(241,234,250,0) 56%),
+      #F7FAF8;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:40px 22px 52px}
+
+  .logo{display:flex;gap:7px;margin-bottom:18px}
+  .blk{width:26px;height:26px;border-radius:8px;position:relative;
+       box-shadow:0 3px 0 rgba(0,0,0,.09)}
+  .blk::after{content:"";position:absolute;inset:0;border-radius:8px;
+       background:linear-gradient(180deg,rgba(255,255,255,.78),rgba(255,255,255,0) 53%)}
+  .b1{background:linear-gradient(135deg,#EAE2FA,var(--lav) 52%,#B4A2E0)}
+  .b2{background:linear-gradient(135deg,#FBE2EC,var(--rose) 52%,#DFA3BC)}
+  .b3{background:linear-gradient(135deg,#E2ECFB,var(--sky) 52%,#A6BFE2)}
+  .b4{background:linear-gradient(135deg,#E2F7EF,var(--mint) 52%,#A4D6C4)}
+
+  h1{font-size:34px;font-weight:700;letter-spacing:-.6px;line-height:1.15}
+  .updated{margin-top:6px;font-size:14px;font-weight:400;color:var(--muted)}
+  .lede{margin-top:16px;font-size:17px;font-weight:400;color:var(--muted);line-height:1.6}
+
+  h2{font-size:19px;font-weight:600;margin:32px 0 9px}
+  p{font-size:15.5px;font-weight:400;color:var(--muted);line-height:1.68}
+  p + p{margin-top:10px}
+  strong{color:var(--ink);font-weight:600}
+  ul{margin:12px 0 0 4px;list-style:none}
+  li{position:relative;padding-left:20px;margin-bottom:7px;
+     font-size:15.5px;font-weight:400;color:var(--muted);line-height:1.6}
+  li::before{content:"";position:absolute;left:0;top:9px;width:8px;height:8px;
+             border-radius:3px;background:var(--mint);box-shadow:0 2px 0 rgba(0,0,0,.07)}
+  a{color:var(--panel);font-weight:500;text-decoration:none;
+    border-bottom:1.5px solid rgba(62,123,113,.3);word-break:break-word}
+  a:hover{border-bottom-color:var(--panel)}
+
+  .rule{margin:46px 0 0;border:none;border-top:1px solid rgba(62,123,113,.18)}
+  .rule + h1{margin-top:34px}
+
+  @media (max-width:520px){
+    .wrap{padding:30px 18px 40px}
+    h1{font-size:28px}
+    .lede{font-size:16px}
+  }
+
+  .langbar{display:flex;justify-content:flex-end;margin-bottom:10px}
+  .langbar a{font-size:13.5px;font-weight:700;border-bottom:none;
+             padding:7px 14px;border-radius:999px;
+             background:rgba(62,123,113,.10);color:var(--panel)}
+  .langbar a:hover{background:rgba(62,123,113,.18)}
+</style>
+
+<div class="wrap">
+  <nav class="langbar"><a href="privacy-tr.html">Türkçe</a></nav>
+
+  <div class="logo">
+    <div class="blk b1"></div><div class="blk b2"></div>
+    <div class="blk b3"></div><div class="blk b4"></div>
+  </div>
+
+  <h1>Privacy Policy</h1>
+  <p class="updated">Blockimo · Last updated 9 September 2026</p>
+  <p class="lede">Blockimo is a block puzzle game for iPhone. This policy explains what the app does and does not do with your data.</p>
+
+  <h2>What the app itself collects</h2>
+  <p><strong>Nothing.</strong> Blockimo has no account system, no login and no server of its own. Your score, your saved board, your power-ups and your settings are stored only on your device, and they are deleted when you delete the app. Nothing you do in the game is sent to us, because there is nowhere for it to be sent.</p>
+
+  <h2>Advertising</h2>
+  <p>Blockimo is free and shows ads through <strong>Google AdMob</strong>. To choose and measure those ads, AdMob may collect:</p>
+  <ul>
+    <li>your device's advertising identifier (IDFA) and other device identifiers</li>
+    <li>ad interaction and app usage data — which ads were shown, tapped, or skipped</li>
+    <li>approximate location derived from your IP address</li>
+    <li>crash and performance diagnostics</li>
+  </ul>
+  <p>This data is handled by Google, not by us. Google's practices are described at <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a>.</p>
+
+  <h2>Tracking and your choice</h2>
+  <p>The first time you open the app, iOS asks whether Blockimo may track you across other companies' apps and websites. <strong>If you decline, the advertising identifier is not shared</strong> and you will see less relevant ads instead. The game itself works exactly the same either way — nothing is locked, slowed down or hidden based on your answer.</p>
+  <p>You can change your mind at any time in <strong>Settings → Privacy &amp; Security → Tracking</strong>.</p>
+
+  <h2>Children</h2>
+  <p>Blockimo is not directed at children under 13 and does not knowingly collect information from them.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be posted at this address with a new date.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:alperenkr28@gmail.com">alperenkr28@gmail.com</a></p>
+
+  
+</div>
