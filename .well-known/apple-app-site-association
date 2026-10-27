@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["8V8BKSXY34.com.wordmile.Wordmile"],
+        "components": [
+          { "/": "/wordmile/" }
+        ]
+      }
+    ]
+  }
+}
